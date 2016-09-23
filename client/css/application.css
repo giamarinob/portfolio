@@ -1,0 +1,89 @@
+html, body {
+	height: 100%;
+}
+
+#home {
+	background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url('/imgs/chi_river.jpg');
+	background-size: cover;
+	height: 100%;
+	margin: -12px;
+	margin-top: -16px;
+	margin-bottom: 0px;
+}
+
+.navbar-header {
+	border: 2px solid yellow;
+	width: 20%;
+	height: 100px;
+}
+
+#prof {
+	position: relative;
+  float: left;
+	left: 5%;
+	border: 2px solid white;
+	display: inline;
+	vertical-align: middle;
+}
+
+.navbar-brand {
+	border: 2px solid red;
+	position: relative;
+	float: right;
+	margin-left: 20px;
+}
+
+#catchphrase {
+	border: 2px solid white;
+	color: white;
+	font-family: 'Old Standard TT';
+}
+
+#nav-table {
+	width: 75%;
+	position: relative;
+	left: 20%;
+	border: 2px solid white;
+}
+
+td {
+	text-align: center;
+	width: 10%;
+}
+
+td a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.selected {
+	border-bottom: 2px solid red;
+}
+
+#resume {
+	position: relative;
+	float: right;
+}
+
+
+#about {
+	background-color: yellow;
+	height: 100%;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+#projects {
+	background-color: blue;
+	height: 100%;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+#contact {
+	background-color: gray;
+	height: 50%;
+	margin-left: -12px;
+	margin-right: -12px;
+}

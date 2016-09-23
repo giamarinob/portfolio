@@ -1,7 +1,11 @@
 var express = require('express'),
     app     = express();
 
-app.get('/', function(res, req){
+app.use('/css', express.static(__dirname + '/client/css'));
+app.use('/imgs', express.static(__dirname + '/public/imgs'));
+app.use('/docs', express.static(__dirname + '/public/docs'));
+
+app.get('/', function(req, res){
 	res.sendFile(__dirname + '/client/views/index.html');
 });
 
