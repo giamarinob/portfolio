@@ -1,6 +1,5 @@
 html, body {
 	height: 100%;
-	margin, padding: 0px;
 }
 
 #home {
@@ -12,10 +11,10 @@ html, body {
 	margin-bottom: 0px;
 }
 
-#nav-bar {
-	height: 10%;
-	margin-bottom: -16px;
+.navbar-header {
 	border: 2px solid yellow;
+	width: 20%;
+	height: 100px;
 }
 
 #prof {
@@ -23,6 +22,21 @@ html, body {
   float: left;
 	left: 5%;
 	border: 2px solid white;
+	display: inline;
+	vertical-align: middle;
+}
+
+.navbar-brand {
+	border: 2px solid red;
+	position: relative;
+	float: right;
+	margin-left: 20px;
+}
+
+#catchphrase {
+	border: 2px solid white;
+	color: white;
+	font-family: 'Old Standard TT';
 }
 
 #nav-table {
