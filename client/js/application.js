@@ -22,9 +22,12 @@ $(document).ready(function(){
 		$('.active').removeClass('active');
 		$(e.currentTarget).addClass('active');
 
+		var hash = $(this).children('a').attr('href');
+
 		$('html, body').animate({
-			scrollTop: $($(this).children('a').attr('href')).offset().top
+			scrollTop: $(hash).offset().top
  		}, 600);
+
 	});
 
 	//Event listening for scrolling. Once user has scrolled passed the 'home' page
