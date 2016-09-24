@@ -42,7 +42,7 @@ html, body {
 	top: 10px;
 }
 
-.active {
+.highlighted {
 	border-bottom: 2px solid red;
 }
 
