@@ -2,21 +2,32 @@ $(document).ready(function(){
 	
 	//Basic jQuery to listen for mouse events on the navbar
 	//Specifically enter leave or click
-	$('.selectable').on("mouseenter", function(e) {
+	$('.highlightable').on("mouseenter", function(e) {
 		$(e.currentTarget).addClass('highlighted');
 	});
 
-	$('.selectable').on('mouseleave', function(e) {
+	$('.highlightable').on('mouseleave', function(e) {
 		$(e.currentTarget).removeClass('highlighted');
+	});
+
+	$('.highlightable-inverse').on("mouseenter", function(e) {
+		$(e.currentTarget).addClass('highlighted-inverse');
+	});
+
+	$('.highlightable-inverse').on('mouseleave', function(e) {
+		$(e.currentTarget).removeClass('highlighted-inverse');
 	});
 
 	$('.selectable').on('click', function(e){
 		$('.active').removeClass('active');
 		$(e.currentTarget).addClass('active');
 
+		var hash = $(this).children('a').attr('href');
+
 		$('html, body').animate({
-			scrollTop: $($(this).children('a').attr('href')).offset().top
+			scrollTop: $(hash).offset().top
  		}, 600);
+
 	});
 
 	//Event listening for scrolling. Once user has scrolled passed the 'home' page
@@ -47,3 +58,6 @@ $(document).ready(function(){
 		}
 	});
 });
+
+// <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+//   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
