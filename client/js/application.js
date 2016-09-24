@@ -13,6 +13,10 @@ $(document).ready(function(){
 	$('.selectable').on('click', function(e){
 		$('.active').removeClass('active');
 		$(e.currentTarget).addClass('active');
+
+		$('html, body').animate({
+			scrollTop: $($(this).children('a').attr('href')).offset().top
+ 		}, 600);
 	});
 
 	//Event listening for scrolling. Once user has scrolled passed the 'home' page
