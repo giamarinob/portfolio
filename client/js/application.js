@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	
+	//Basic jQuery to listen for mouse events on the navbar
+	//Specifically enter leave or click
 	$('.selectable').on("mouseenter", function(e) {
 		$(e.currentTarget).addClass('highlighted');
 	});
