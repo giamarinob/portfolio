@@ -33,6 +33,7 @@ li {
 	float: right;
 	position: relative;
 	margin: auto;
+	margin-right: 30px;
 	text-align: center;
 }
 
@@ -59,6 +60,13 @@ li {
 	position: relative;
 	height: 100%;
 	top: 15px;
+	left: 23%;
+	max-width: 77%;
+}
+
+.nav {
+	position: relative;
+	left: -23%;
 }
 
 .hidden {
@@ -73,6 +81,10 @@ li {
 	border-bottom: 2px solid red;
 }
 
+.highlighted-inverse
+{
+	border-bottom: 2px solid rgb(0, 255, 255);
+}
 #resume {
 	position: relative;
 	float: right;

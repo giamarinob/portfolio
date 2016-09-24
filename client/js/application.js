@@ -19,6 +19,23 @@ $(document).ready(function(){
  		}, 600);
 	});
 
+	$('.selectable-inverse').on("mouseenter", function(e) {
+		$(e.currentTarget).addClass('highlighted-inverse');
+	});
+
+	$('.selectable-inverse').on('mouseleave', function(e) {
+		$(e.currentTarget).removeClass('highlighted-inverse');
+	});
+
+	$('.selectable-inverse').on('click', function(e){
+		$('.active').removeClass('active');
+		$(e.currentTarget).addClass('active');
+
+		$('html, body').animate({
+			scrollTop: $($(this).children('a').attr('href')).offset().top
+ 		}, 600);
+	});
+
 	//Event listening for scrolling. Once user has scrolled passed the 'home' page
 	//Then an alt navbar will appear to assist the user within the spa
 	$(document).on('scroll', function(e)
@@ -47,3 +64,6 @@ $(document).ready(function(){
 		}
 	});
 });
+
+// <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+//   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
