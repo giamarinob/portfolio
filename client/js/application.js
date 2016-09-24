@@ -19,16 +19,23 @@ $(document).ready(function(){
 	//Then an alt navbar will appear to assist the user within the spa
 	$(document).on('scroll', function(e)
 	{
+		//Grab the alternate navbar from the dom
 		var navbar = $('.alt');
+
+		//Check if the page has been scrolled past the height of the window
+		//Then we know the page has been scrolled past the 'home' section
 		if($(window).scrollTop() > $(window).height())
 		{
+			//Only do this one time once the condition has been met so it doesn't happen on every scroll
 			if(navbar.hasClass('hidden'))
 			{
 				navbar.removeClass('hidden');
 			}
 		}
+		//User has scrolled back into the 'home' section
 		else if($(window).scrollTop() < $(window).height())
 		{
+			//Just add the class once not every scroll within the home section
 			if(!(navbar.hasClass('hidden')))
 			{
 				navbar.addClass('hidden');
