@@ -6,58 +6,43 @@ html, body {
 	background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url('/imgs/chi_river.jpg');
 	background-size: cover;
 	height: 100%;
-	margin: -12px;
-	margin-top: -16px;
 	margin-bottom: 0px;
 }
 
-.navbar-header {
-	border: 2px solid yellow;
-	width: 20%;
-	height: 100px;
-}
-
 #prof {
-	position: relative;
-  float: left;
-	left: 5%;
 	border: 2px solid white;
 	display: inline;
-	vertical-align: middle;
+	float: left;
+	position: relative;
+	margin: auto;
+}
+
+#header-box {
+	float: right;
+	position: relative;
+	margin: auto;
+	text-align: center;
 }
 
 .navbar-brand {
-	border: 2px solid red;
 	position: relative;
-	float: right;
-	margin-left: 20px;
+	margin: auto;
 }
 
 #catchphrase {
-	border: 2px solid white;
 	color: white;
 	font-family: 'Old Standard TT';
-}
-
-#nav-table {
-	width: 75%;
 	position: relative;
-	left: 20%;
-	border: 2px solid white;
+	margin: auto;
 }
 
-td {
-	text-align: center;
-	width: 10%;
+.collapse {
+	position: relative;
+	height: 100%;
+	top: 10px;
 }
 
-td a {
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-}
-
-.selected {
+.active {
 	border-bottom: 2px solid red;
 }
 

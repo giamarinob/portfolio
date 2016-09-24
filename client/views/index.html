@@ -12,19 +12,28 @@
 			<nav class='navbar navbar-inverse'>
 				<div class='container-fluid'>
 					<div class='navbar-header'>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+			      </button>
 						<img id='prof' class='img-circle' src="https://www.gravatar.com/avatar/014949849604d04119c0728854f1388c">
-						<h3 class='navbar-brand'>BEN GIAMARINO</h3>
-						<p id='catchphrase'>The Delicate Genius</p>
+						<ul id='header-box'>
+							<li><h3 class='navbar-brand'>BEN GIAMARINO</h3></li>
+							<li><p id='catchphrase'>The Delicate Genius</p></li>
+						</ul>
 					</div>
-					<table id='nav-table'>
-						<tr>
-							<td class='selected'><a href='#'>Home</a></td>
-							<td><a href='#'>About</a></td>
-							<td><a href='#'>Projects</a></td>
-							<td><a href='#'>Contact</a></td>
-							<td id='resume'><a href="/docs/BENGIAMARINOResume2016.pdf">Resume</a></td>
-						</tr>
-					</table>
+					<div class='collapse navbar-collapse' id='collapsable'>
+						<ul class='nav navbar-nav'>
+							<li class='active'><a href='#'>Home</a></li>
+							<li><a href='#'>About</a></li>
+							<li><a href='#'>Projects</a></li>
+							<li><a href='#'>Contact</a></li>
+						</ul>
+						<ul class='nav navbar-nav navbar-right'>
+							<li><a href="/docs/BENGIAMARINOResume2016.pdf">Resume</a></li>
+						</ul>
+					</div>
 				</div>
 			</nav>
 			<p>Hello World</p>
