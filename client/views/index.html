@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/application.css">
 		<script type="text/javascript" src='/js/application.js'></script>
 	</head>
-	<body>
+	<body data-spy='scroll' data-target='.navbar' data-offset='50'>
 		<div id='home'>
 			<nav class='navbar navbar-inverse'>
 				<div class='container-fluid'>
@@ -26,10 +26,37 @@
 					</div>
 					<div class='collapse navbar-collapse' id='collapsable'>
 						<ul class='nav navbar-nav'>
-							<li class='active selectable'><a href='#'>Home</a></li>
-							<li class='selectable'><a href='#'>About</a></li>
-							<li class='selectable'><a href='#'>Projects</a></li>
-							<li class='selectable'><a href='#'>Contact</a></li>
+							<li class='active selectable'><a href='#home'>Home</a></li>
+							<li class='selectable'><a href='#about'>About</a></li>
+							<li class='selectable'><a href='#projects'>Projects</a></li>
+							<li class='selectable'><a href='#contact'>Contact</a></li>
+						</ul>
+						<ul class='nav navbar-nav navbar-right'>
+							<li class='selectable'><a href="/docs/BENGIAMARINOResume2016.pdf">Resume</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class='navbar navbar-default navbar-fixed-top alt hidden'>
+				<div class='container-fluid'>
+					<div class='navbar-header'>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+			      </button>
+						<img id='prof-alt' class='img-circle' src="https://www.gravatar.com/avatar/014949849604d04119c0728854f1388c">
+						<ul id='header-box'>
+							<li><h3 class='navbar-brand'>BEN GIAMARINO</h3></li>
+							<li><p id='catchphrase-alt'>The Delicate Genius</p></li>
+						</ul>
+					</div>
+					<div class='collapse navbar-collapse' id='collapsable'>
+						<ul class='nav navbar-nav'>
+							<li class='active selectable'><a href='#home'>Home</a></li>
+							<li class='selectable'><a href='#about'>About</a></li>
+							<li class='selectable'><a href='#projects'>Projects</a></li>
+							<li class='selectable'><a href='#contact'>Contact</a></li>
 						</ul>
 						<ul class='nav navbar-nav navbar-right'>
 							<li class='selectable'><a href="/docs/BENGIAMARINOResume2016.pdf">Resume</a></li>
@@ -39,11 +66,11 @@
 			</nav>
 			<p>Hello World</p>
 		</div>
-		<div id='about'>
+		<div id='about' class='container-fluid'>
 		</div>
-		<div id='projects'>
+		<div id='projects' class='container-fluid'>
 		</div>
-		<div id='contact'>
+		<div id='contact' class='container-fluid'>
 		</div>
 		<footer>
 			<p>This is the footer</p>
