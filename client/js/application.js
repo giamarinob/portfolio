@@ -14,4 +14,25 @@ $(document).ready(function(){
 		$('.active').removeClass('active');
 		$(e.currentTarget).addClass('active');
 	});
+
+	//Event listening for scrolling. Once user has scrolled passed the 'home' page
+	//Then an alt navbar will appear to assist the user within the spa
+	$(document).on('scroll', function(e)
+	{
+		var navbar = $('.alt');
+		if($(window).scrollTop() > $(window).height())
+		{
+			if(navbar.hasClass('hidden'))
+			{
+				navbar.removeClass('hidden');
+			}
+		}
+		else if($(window).scrollTop() < $(window).height())
+		{
+			if(!(navbar.hasClass('hidden')))
+			{
+				navbar.addClass('hidden');
+			}
+		}
+	});
 });

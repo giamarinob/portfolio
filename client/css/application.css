@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+li {
+	list-style-type: none;
+}
+
 #home {
 	background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url('/imgs/chi_river.jpg');
 	background-size: cover;
@@ -11,6 +15,14 @@ html, body {
 
 #prof {
 	border: 2px solid white;
+	display: inline;
+	float: left;
+	position: relative;
+	margin: auto;
+}
+
+#prof-alt {
+	border: 2px solid black;
 	display: inline;
 	float: left;
 	position: relative;
@@ -36,10 +48,25 @@ html, body {
 	margin: auto;
 }
 
+#catchphrase-alt {
+	color: black;
+	font-family: 'Old Standard TT';
+	position: relative;
+	margin: auto;
+}
+
 .collapse {
 	position: relative;
 	height: 100%;
 	top: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.navbar-default {
+	background-color: white;
 }
 
 .highlighted {
