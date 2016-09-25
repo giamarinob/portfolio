@@ -1,19 +1,21 @@
-html, body {
+html, body 
+{
 	height: 100%;
 }
 
-li {
+li 
+{
 	list-style-type: none;
 }
 
-#home {
-	background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url('/imgs/chi_river.jpg');
-	background-size: cover;
-	height: 100%;
-	margin-bottom: 0px;
+.navbar-inverse
+{
+	background-color: rgba(0, 0, 0, 0.0);
+	border: none;
 }
 
-#prof {
+#prof 
+{
 	border: 2px solid white;
 	display: inline;
 	float: left;
@@ -21,7 +23,8 @@ li {
 	margin: auto;
 }
 
-#prof-alt {
+#prof-alt 
+{
 	border: 2px solid black;
 	display: inline;
 	float: left;
@@ -29,7 +32,8 @@ li {
 	margin: auto;
 }
 
-#header-box {
+#header-box 
+{
 	float: right;
 	position: relative;
 	margin: auto;
@@ -37,26 +41,30 @@ li {
 	text-align: center;
 }
 
-.navbar-brand {
+.navbar-brand 
+{
 	position: relative;
 	margin: auto;
 }
 
-#catchphrase {
+#catchphrase 
+{
 	color: white;
 	font-family: 'Old Standard TT';
 	position: relative;
 	margin: auto;
 }
 
-#catchphrase-alt {
+#catchphrase-alt 
+{
 	color: black;
 	font-family: 'Old Standard TT';
 	position: relative;
 	margin: auto;
 }
 
-.collapse {
+.collapse 
+{
 	position: relative;
 	height: 100%;
 	top: 15px;
@@ -64,20 +72,24 @@ li {
 	max-width: 77%;
 }
 
-.nav {
+.nav 
+{
 	position: relative;
 	left: -23%;
 }
 
-.hidden {
+.hidden 
+{
 	display: none;
 }
 
-.navbar-default {
+.navbar-default 
+{
 	background-color: white;
 }
 
-.highlighted {
+.highlighted 
+{
 	border-bottom: 2px solid red;
 }
 
@@ -85,13 +97,15 @@ li {
 {
 	border-bottom: 2px solid rgb(0, 255, 255);
 }
-#resume {
+#resume 
+{
 	position: relative;
 	float: right;
 }
 
 
-#about {
+#about 
+{
 	background-color: yellow;
 	height: 100%;
 	margin-left: -12px;
@@ -110,8 +124,4 @@ li {
 	height: 50%;
 	margin-left: -12px;
 	margin-right: -12px;
-}
-
-h1 {
-	color: white;
 }

@@ -27,7 +27,6 @@ $(document).ready(function(){
 		$('html, body').animate({
 			scrollTop: $(hash).offset().top
  		}, 600);
-
 	});
 
 	//Event listening for scrolling. Once user has scrolled passed the 'home' page
