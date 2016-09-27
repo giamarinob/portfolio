@@ -1,0 +1,60 @@
+#about 
+{
+	background-color: #F26539;
+	height: auto;
+	min-height: 100%;
+	margin-left: -12px;
+	margin-right: -12px;
+	text-align: center;
+}
+
+#about-banner
+{
+	margin-top: 10%;
+}
+
+#content-img
+{
+	display: inline;
+	width: 40%;
+}
+
+#about-img
+{
+	width: 40%;
+	height: 70%;
+	margin-top: 5%;
+}
+
+#content-blurb
+{
+	text-align: left;
+	margin-top: 5%;
+	float: right;
+	width: 40%;
+	color: white;
+	margin-bottom: 5%;
+}
+
+#about-contact
+{
+	text-decoration: none;
+	color: #5BC0DE;
+}
+
+.table-condensed
+{
+	width: 45%;
+}
+
+.progress
+{
+	width: 200%;
+	position: relative;
+	margin: auto;
+}
+
+th
+{
+	text-align: center;
+}
