@@ -103,16 +103,7 @@ li
 	float: right;
 }
 
-#projects {
-	background-color: blue;
-	height: 100%;
-	margin-left: -12px;
-	margin-right: -12px;
-}
-
 #contact {
 	background-color: gray;
 	height: 50%;
-	margin-left: -12px;
-	margin-right: -12px;
 }
