@@ -3,8 +3,6 @@
 	background-color: #F26539;
 	height: auto;
 	min-height: 100%;
-	margin-left: -12px;
-	margin-right: -12px;
 	text-align: center;
 }
 
@@ -49,7 +47,7 @@
 
 .progress
 {
-	width: 200%;
+	width: 250%;
 	position: relative;
 	margin: auto;
 }

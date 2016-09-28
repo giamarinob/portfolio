@@ -4,6 +4,7 @@ var express = require('express'),
 app.use('/css', express.static(__dirname + '/client/css'));
 app.use('/imgs', express.static(__dirname + '/public/imgs'));
 app.use('/docs', express.static(__dirname + '/public/docs'));
+app.use('/fonts', express.static(__dirname + '/public/fonts'));
 app.use('/js', express.static(__dirname + '/client/js'));
 
 app.get('/', function(req, res){

@@ -21,7 +21,7 @@
 {
 	position: relative;
 	margin: auto;
-	max-width: 35%;
+	max-width: 40%;
 	text-align: left;
 	color: white;
 }
@@ -30,7 +30,7 @@
 {
 	text-align: left;
 	color: rgb(164, 232, 226);
-	max-width: 35%;
+	max-width: 40%;
 	position: relative;
 	margin: auto;
 	margin-top: 5%;
@@ -40,7 +40,7 @@
 .buttons
 {
 	position: relative;
-	max-width: 35%;
+	max-width: 40%;
 	margin: auto;
 	text-align: left;
 }
