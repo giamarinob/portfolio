@@ -1,0 +1,49 @@
+footer {
+	background-color: black;
+	height: auto;
+	min-height: 20%;
+	text-align: center;
+}
+
+footer div
+{
+	position: relative;
+	top: 15px;
+}
+
+#footer-list
+{
+	position: relative;
+	text-align: center;
+}
+
+#footer-list li
+{
+	display: inline-block;
+	margin: auto;
+	margin-right: 50px;
+}
+
+#github
+{
+	width: 40px;
+	height: 40px;
+	background-image: url('/imgs/github-alt.png');
+	background-size: cover;
+}
+
+#twitter
+{
+	width: 40px;
+	height: 40px;
+	background-image: url('/imgs/Twitter.jpg');
+	background-size: cover;
+}
+
+#linkedIn
+{
+	width: 40px;
+	height: 40px;
+	background-image: url('/imgs/linkedin.png');
+	background-size: cover;
+}
