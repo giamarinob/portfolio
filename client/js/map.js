@@ -1,6 +1,6 @@
 function initMap()
 {
-	var uluru         = {lat: 41.971567, lng: -87.7666412};
+	var uluru = {lat: 41.971567, lng: -87.7666412};
 
 	//Styled Map from Google Styling Wizard
 	var styledMapType = new google.maps.StyledMapType(
@@ -267,7 +267,7 @@ function initMap()
 	var map = new google.maps.Map(document.getElementById('map'),
 	{
 		zoom: 10,
-		center: uluru,
+		center: {lat: 41.879421, lng: -87.5433047},
 		mapTypeControlOptions: 
 		{
 			mapTypeIds: ['satellite', 'Map']

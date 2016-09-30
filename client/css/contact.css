@@ -1,11 +1,39 @@
 #contact {
 	background-color: white;
-	height: 50%;
+	height: auto;
+	min-height: 50%;
 }
 
 #map
 {
 	width: 100%;
 	height: 300px;
-	background-color: gray;
+}
+
+#contact-content
+{
+	text-align: center;
+}
+
+#content-banner
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#contact-list li
+{
+	display: inline;
+}
+
+.contact-button
+{
+	background-color: rgb(255, 0, 68);
+	border-radius: 5px;
+}
+
+.contact-button a 
+{
+	color: white;
+	text-decoration: none;
 }

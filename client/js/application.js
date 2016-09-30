@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 		//Check if the page has been scrolled past the height of the window
 		//Then we know the page has been scrolled past the 'home' section
-		if($(window).scrollTop() > $(window).height())
+		if($(window).scrollTop() > $(window).height() - 1)
 		{
 			//Only do this one time once the condition has been met so it doesn't happen on every scroll
 			if(navbar.hasClass('hidden'))
